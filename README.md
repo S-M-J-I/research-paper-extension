@@ -16,9 +16,14 @@ git clone https://github.com/research-paper-extension
 6. When you load it at first, you will need to create a new group before you can add papers (if you want a general paper dump, name the first group anything you like). ![](./tutorial_imgs/image2.png)
 7. Once you create a group, navigate to the **Save to Group** card above, and click on the group you want to save the paper to. ![](./tutorial_imgs/image3.png)
 8. Click on the Save Paper button ![](./tutorial_imgs/image4.png)
-9. Scroll down to see your saved papers. The default view shows all your papers (regardless of groups) \\ ![](./tutorial_imgs/image5.png)
-10. If you want to see your papers in groups, click on the dropout on the top-right of the card, and click on the group you want to filter \\ ![](./tutorial_imgs/image6.png)
-11. You can now see your papers filtered by groups \\ ![](./tutorial_imgs/image7.png)
+9. Scroll down to see your saved papers. The default view shows all your papers (regardless of groups) ![](./tutorial_imgs/image5.png)
+10. If you want to see your papers in groups, click on the dropout on the top-right of the card, and click on the group you want to filter 
+
+![](./tutorial_imgs/image6.png)
+
+11. You can now see your papers filtered by groups
+
+![](./tutorial_imgs/image7.png)
 
 ## Future releases
 1. Add export to sheet or doc option later
