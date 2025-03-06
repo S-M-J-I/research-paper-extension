@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Research Paper Saver</title>
+    <link rel="stylesheet" href="popup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Research Paper Saver</h1>
+        </header>
+
+        <section class="card" id="paper-info">
+            <h2>Current Paper</h2>
+            <div id="paper-title" class="paper-title text-ellipsis"></div>
+            <div id="paper-url" class="paper-url text-ellipsis"></div>
+        </section>
+
+        <section class="card" id="save-options">
+            <h2>Save to Group</h2>
+            <select id="group-select">
+                <option value="">Select a group...</option>
+            </select>
+            <br />
+            <br />
+            <button id="save-button" class="secondary-button">Save Paper</button>
+        </section>
+
+        <section class="card" id="group-management">
+            <h2>Manage Groups</h2>
+            <div class="input-group">
+                <input type="text" id="new-group-name" placeholder="New group name">
+                <button id="create-group-button" class="secondary-button">Create</button>
+            </div>
+            <ul id="group-list" class="group-list"></ul>
+        </section>
+
+        <section class="card" id="saved-papers">
+            <div class="section-header">
+                <h2>Saved Papers</h2>
+                <select id="filter-group" class="compact-select">
+                    <option value="all">All Groups</option>
+                </select>
+            </div>
+            <div id="papers-container" class="papers-container"></div>
+        </section>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
