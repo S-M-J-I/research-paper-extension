@@ -17,4 +17,5 @@ git clone https://github.com/research-paper-extension
 ## Future releases
 1. Add export to sheet or doc option later
 2. Add option to download the saved groups to local/drive
-3. idk what else will think of stuff later...
+3. Add option for users to color their groups
+4. idk what else will think of stuff later...
